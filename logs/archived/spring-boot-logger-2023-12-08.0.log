@@ -1,0 +1,334 @@
+2023-12-08 21:45:00,297 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 218336 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 21:45:00,302 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 21:45:01,006 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 21:45:01,124 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2023-12-08 21:45:01,818 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 21:45:01,827 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 21:45:01,828 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 21:45:01,829 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 21:45:01,938 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 21:45:01,938 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1564 ms
+2023-12-08 21:45:02,188 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 21:45:02,243 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 21:45:02,402 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 21:45:02,498 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 21:45:02,671 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 21:45:02,686 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 21:45:03,373 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 21:45:03,381 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 21:45:04,481 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 21:45:04,665 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 21:45:04,692 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 21:45:04,702 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.973 seconds (JVM running for 5.678)
+2023-12-08 21:45:22,212 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 21:45:22,213 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 21:45:22,214 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 21:51:22,052 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 21:51:22,055 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 21:51:22,066 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 21:51:27,671 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 233028 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 21:51:27,676 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 21:51:28,426 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 21:51:28,529 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 4 JPA repository interfaces.
+2023-12-08 21:51:29,216 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 21:51:29,226 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 21:51:29,226 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 21:51:29,227 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 21:51:29,335 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 21:51:29,335 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1585 ms
+2023-12-08 21:51:29,556 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 21:51:29,604 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 21:51:29,763 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 21:51:29,870 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 21:51:30,028 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 21:51:30,042 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 21:51:30,761 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 21:51:30,768 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 21:51:31,876 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 21:51:32,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 21:51:32,229 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 21:51:32,241 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.061 seconds (JVM running for 5.734)
+2023-12-08 22:14:31,837 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:14:31,841 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:14:31,856 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:14:36,432 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 230536 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:14:36,437 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:14:37,184 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:14:37,285 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 90 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:14:37,993 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:14:38,011 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:14:38,012 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:14:38,012 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:14:38,142 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:14:38,142 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1637 ms
+2023-12-08 22:14:38,373 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:14:38,425 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:14:38,599 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:14:38,695 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:14:38,881 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:14:38,897 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:14:39,629 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:14:39,638 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:14:40,673 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:14:40,858 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:14:40,883 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:14:40,896 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.975 seconds (JVM running for 5.592)
+2023-12-08 22:14:45,782 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:14:45,782 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:14:45,783 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 22:39:07,370 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:39:07,373 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:39:07,389 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:39:14,140 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 228364 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:39:14,145 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:39:15,539 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:39:15,863 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 295 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:39:17,110 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:39:17,128 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:39:17,129 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:39:17,129 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:39:17,259 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:39:17,259 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3041 ms
+2023-12-08 22:39:17,620 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:39:17,700 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:39:17,972 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:39:18,092 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:39:18,374 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:39:18,400 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:39:19,419 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:39:19,428 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:39:20,685 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:39:21,333 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:39:21,437 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:39:21,459 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 8.076 seconds (JVM running for 9.562)
+2023-12-08 22:39:22,315 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:39:22,315 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:39:22,316 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed initialization in 1 ms
+2023-12-08 22:39:27,085 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:39:27,088 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:39:27,104 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:39:34,261 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 232756 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:39:34,266 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:39:35,071 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:39:35,197 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 106 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:39:35,990 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:39:36,002 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:39:36,003 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:39:36,004 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:39:36,146 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:39:36,146 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1822 ms
+2023-12-08 22:39:36,414 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:39:36,473 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:39:36,680 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:39:36,804 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:39:37,014 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:39:37,032 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:39:38,803 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:39:38,812 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:39:39,968 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:39:40,229 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:39:40,256 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:39:40,266 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 6.544 seconds (JVM running for 7.57)
+2023-12-08 22:39:41,142 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:39:41,144 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:39:41,149 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 3 ms
+2023-12-08 22:40:20,205 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:40:20,207 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:40:20,222 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:40:39,216 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 223900 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:40:39,223 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:40:40,080 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:40:40,220 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 123 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:40:41,041 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:40:41,056 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:40:41,057 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:40:41,057 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:40:41,183 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:40:41,183 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1884 ms
+2023-12-08 22:40:41,444 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:40:41,499 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:40:41,727 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:40:41,865 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:40:42,078 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:40:42,101 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:40:43,135 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:40:43,144 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:40:44,348 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:40:44,877 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:40:44,916 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:40:44,928 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 6.246 seconds (JVM running for 7.273)
+2023-12-08 22:40:47,791 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:40:47,792 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:40:47,793 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 22:40:56,464 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:40:56,467 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:40:56,488 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:41:16,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 223112 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:41:16,346 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:41:17,165 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:41:17,279 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:41:18,084 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:41:18,095 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:41:18,096 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:41:18,096 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:41:18,214 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:41:18,214 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1799 ms
+2023-12-08 22:41:18,476 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:41:18,537 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:41:18,744 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:41:18,871 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:41:19,064 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:41:19,079 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:41:19,977 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:41:19,987 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:41:21,195 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:41:21,424 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:41:21,454 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:41:21,467 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.679 seconds (JVM running for 6.734)
+2023-12-08 22:41:29,377 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:41:29,377 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:41:29,378 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 1 ms
+2023-12-08 22:41:54,545 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:41:54,547 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:41:54,558 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:42:27,812 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 232320 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:42:27,816 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:42:28,628 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:42:28,754 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:42:29,571 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:42:29,581 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:42:29,582 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:42:29,582 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:42:29,706 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:42:29,706 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1829 ms
+2023-12-08 22:42:29,970 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:42:30,027 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:42:30,243 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:42:30,369 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:42:30,562 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:42:30,578 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:42:31,410 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:42:31,420 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:42:32,544 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:42:32,758 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:42:32,790 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:42:32,800 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.518 seconds (JVM running for 6.511)
+2023-12-08 22:42:50,120 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:42:50,121 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:42:50,122 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 22:43:13,239 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:43:13,242 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:43:13,252 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:49:22,123 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 228644 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:49:22,128 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:49:22,892 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:49:23,007 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:49:23,817 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:49:23,828 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:49:23,829 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:49:23,829 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:49:23,949 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:49:23,950 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1759 ms
+2023-12-08 22:49:24,224 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:49:24,284 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:49:24,494 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:49:24,631 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:49:24,825 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:49:24,841 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:49:25,659 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:49:25,669 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:49:26,929 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:49:27,132 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:49:27,162 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:49:27,171 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.593 seconds (JVM running for 6.617)
+2023-12-08 22:49:42,370 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:49:42,370 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:49:42,372 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 22:51:11,667 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:51:11,676 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:51:11,697 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:52:22,505 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 199716 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:52:22,509 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:52:23,288 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:52:23,398 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:52:24,212 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:52:24,224 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:52:24,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:52:24,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:52:24,356 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:52:24,357 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1787 ms
+2023-12-08 22:52:24,607 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:52:24,663 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:52:24,851 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:52:24,970 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:52:25,165 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:52:25,181 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:52:26,037 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:52:26,046 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:52:27,266 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:52:27,515 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:52:27,544 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:52:27,558 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.614 seconds (JVM running for 6.638)
+2023-12-08 22:52:49,818 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:52:49,818 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:52:49,819 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 22:53:27,180 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:53:27,183 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 22:53:27,196 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 22:56:28,888 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 223004 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 22:56:28,893 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 22:56:29,635 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 22:56:29,738 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2023-12-08 22:56:30,450 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 22:56:30,460 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:56:30,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 22:56:30,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 22:56:30,566 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 22:56:30,567 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1603 ms
+2023-12-08 22:56:30,825 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 22:56:30,881 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 22:56:31,052 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 22:56:31,145 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 22:56:31,336 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 22:56:31,351 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 22:56:32,100 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 22:56:32,108 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 22:56:33,182 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 22:56:33,369 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 22:56:33,401 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 22:56:33,415 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.04 seconds (JVM running for 5.716)
+2023-12-08 22:56:39,918 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 22:56:39,918 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 22:56:39,919 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 23:03:13,195 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 23:03:13,198 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 23:03:13,215 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-08 23:03:17,752 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on DESKTOP-HGJAOEB with PID 216720 (C:\Users\Megadjsound\Documents\IdeaProjects\searchengine\target\classes started by Megadjsound in C:\Users\Megadjsound\Documents\IdeaProjects\searchengine)
+2023-12-08 23:03:17,757 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-08 23:03:18,553 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 23:03:18,665 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2023-12-08 23:03:19,434 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-12-08 23:03:19,446 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-12-08 23:03:19,447 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-08 23:03:19,448 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-12-08 23:03:19,571 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-08 23:03:19,572 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1743 ms
+2023-12-08 23:03:19,840 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 23:03:19,898 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-08 23:03:20,107 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-08 23:03:20,206 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-08 23:03:20,414 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-08 23:03:20,429 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-08 23:03:21,179 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-08 23:03:21,187 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 23:03:22,313 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-12-08 23:03:22,536 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-12-08 23:03:22,571 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-12-08 23:03:22,588 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 5.408 seconds (JVM running for 6.082)
+2023-12-08 23:03:35,007 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 23:03:35,007 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-08 23:03:35,009 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2023-12-08 23:03:57,513 INFO searchengine.services.searching.SearchServiceImpl [http-nio-8081-exec-3] -> Поиск по сайтам завершен.
+2023-12-08 23:04:32,798 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 23:04:32,800 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 23:04:32,811 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
