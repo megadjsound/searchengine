@@ -48,7 +48,7 @@ public class GetDtoPagesUtil extends RecursiveTask<CopyOnWriteArrayList<DtoPage>
                         && !linksPool.contains(link)) {
                     linksPool.add(link);
                     GetDtoPagesUtil task = new GetDtoPagesUtil(linksPool, dtoPages, urlUtil, link, root);
-                    task.fork();//Ответляем задачу
+                    task.fork();
                     tasks.add(task);
                 }
             }

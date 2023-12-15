@@ -44,24 +44,22 @@ public class SearchServiceImpl implements SearchService {
         if (query.trim().length() == 0) {
             return new ResponseEntity<>(new BadRequest(false, LogUtil.ERROR_EMPTY_QUERY),
                     HttpStatus.BAD_REQUEST);
-        } else {
-
-            if (!url.isEmpty()) {
-                if (!siteRepository.existsByUrlAndStatus(url, StatusType.INDEXED)) {
-                    return new ResponseEntity<>(new BadRequest(false, LogUtil.LOG_NOT_AVAILABLE_PAGE),
-                            HttpStatus.BAD_REQUEST);
-                }
-            } else {
-                if (siteRepository.findAll()
-                        .stream()
-                        .map(s -> s.getStatus() != StatusType.INDEXED)
-                        .reduce(Boolean.FALSE, Boolean::logicalOr)
-                ) {
-                    return new ResponseEntity<>(new BadRequest(false, LogUtil.LOG_NOT_SITE_INDEXING),
-                            HttpStatus.BAD_REQUEST);
-                }
-            }
         }
+
+        if ((!url.isEmpty()) && (!siteRepository.existsByUrl(url))) {
+            return new ResponseEntity<>(new BadRequest(false, LogUtil.LOG_NOT_AVAILABLE_PAGE),
+                    HttpStatus.BAD_REQUEST);
+        }
+
+        if (siteRepository.findAll()
+                .stream()
+                .map(s -> s.getStatus() != StatusType.INDEXED)
+                .reduce(Boolean.FALSE, Boolean::logicalOr)
+        ) {
+            return new ResponseEntity<>(new BadRequest(false, LogUtil.LOG_NOT_SITE_INDEXING),
+                    HttpStatus.BAD_REQUEST);
+        }
+
         List<SearchData> searchData;
         searchData = pageSearch(query, url, offset, limit);
         log.info(LogUtil.LOG_FINISH_SITES_SEARCH);
@@ -76,6 +74,7 @@ public class SearchServiceImpl implements SearchService {
     @Override
     public List<SearchData> pageSearch(String query, String url, int offset, int limit) {
 
+        allPagesCount = 0;
         List<String> lemmasFromQuery = getQueryIntoLemma(query);
 
         if (lemmasFromQuery.size() > 0) {
@@ -94,7 +93,6 @@ public class SearchServiceImpl implements SearchService {
 
             int pages = pageRepository.getPageCountBySiteEntity(sites);
 
-            //Исключать из полученного списка леммы, которые встречаются на слишком большом количестве страниц
             List<LemmaEntity> lemmasFromSiteFilter =
                     lemmasFromSite.stream()
                             .filter(l -> ((float) l.getFrequency() / pages * 100) < paramQuery.getPercentLemma())
@@ -108,16 +106,15 @@ public class SearchServiceImpl implements SearchService {
                                                int offset, int limit) {
 
         if (lemmasFromSite.size() >= lemmasFromQuery.size()) {
-            List<PageEntity> sortedPageList = pageRepository.findByLemmas(lemmasFromSite);
-            List<IndexEntity> sortedIndexList = indexRepository.findByLemmasAndPages(lemmasFromSite, sortedPageList);
-            LinkedHashMap<PageEntity, Float> sortedPagesByAbsRelevance =
-                    getSortPagesWithAbsRelevance(sortedPageList, sortedIndexList);
-            allPagesCount = sortedPagesByAbsRelevance.size();
-            System.out.println(allPagesCount);
+            return new ArrayList<>();
+        }
+        List<PageEntity> sortedPageList = pageRepository.findByLemmas(lemmasFromSite);
+        List<IndexEntity> sortedIndexList = indexRepository.findByLemmasAndPages(lemmasFromSite, sortedPageList);
+        LinkedHashMap<PageEntity, Float> sortedPagesByAbsRelevance =
+                getSortPagesWithAbsRelevance(sortedPageList, sortedIndexList);
+        allPagesCount = sortedPagesByAbsRelevance.size();
 
-            List<SearchData> searchDataList = getSearchData(sortedPagesByAbsRelevance, lemmasFromQuery, offset, limit);
-            return searchDataList;
-        } else return new ArrayList<>();
+        return getSearchData(sortedPagesByAbsRelevance, lemmasFromQuery, offset, limit);
     }
 
     private List<SearchData> getSearchData(LinkedHashMap<PageEntity, Float> sortedPages,
@@ -211,13 +208,11 @@ public class SearchServiceImpl implements SearchService {
             pageWithRelevance.put(page, relevant);
         }
         HashMap<PageEntity, Float> pagesWithAbsRelevance = new HashMap<>();
-        //макс.абс. релевантность среди всех страниц
         float maxRel = Collections.max(pageWithRelevance.values());
         for (PageEntity page : pageWithRelevance.keySet()) {
             float absRelevant = pageWithRelevance.get(page) / maxRel;
             pagesWithAbsRelevance.put(page, absRelevant);
         }
-        //Сортировать страницы по убыванию релевантности
         return pagesWithAbsRelevance
                 .entrySet()
                 .stream()
@@ -227,7 +222,6 @@ public class SearchServiceImpl implements SearchService {
 
     private List<LemmaEntity> getLemmasFromSite(List<String> lemmas, List<SiteEntity> siteEntity) {
         ArrayList<LemmaEntity> lemmaList = (ArrayList<LemmaEntity>) lemmaRepository.findLemmasBySite(lemmas, siteEntity);
-        //Сортировать леммы по частоте встречаемости
         lemmaList.sort(Comparator.comparingInt(LemmaEntity::getFrequency));
         return lemmaList;
     }

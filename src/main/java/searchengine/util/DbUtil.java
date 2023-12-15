@@ -38,6 +38,7 @@ public class DbUtil {
             site.setLastError(lastError);
         }
         siteRepository.save(site);
+        log.info(LogUtil.LOG_UPD_SITE + site.getName());
     }
 
     public boolean isIndexing() {

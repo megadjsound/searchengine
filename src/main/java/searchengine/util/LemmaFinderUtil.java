@@ -42,10 +42,9 @@ public class LemmaFinderUtil {
         List<String> lemmaList = new ArrayList<>();
         try {
             List<String> lemmaForms = russianLuceneMorphology.getNormalForms(word);
-            if (!isServiceWord(word) && !word.isEmpty() && (word.length() > 1)) {
+            if (!isServiceWord(word) && (word.length() > 1)) {
                 lemmaList.addAll(lemmaForms);
             }
-            //}
         } catch (Exception e) {
         }
         return lemmaList;
@@ -53,7 +52,6 @@ public class LemmaFinderUtil {
 
     public List<Integer> findLemmaIndexInText(String text, String lemma) {
         List<Integer> lemmaIndexList = new ArrayList<>();
-        //String[] elements = arrayContainsRussianWords(text);
         String[] elements = text.toLowerCase(Locale.ROOT).split("\\p{Punct}|\\s");
         int index = 0;
         for (String element : elements) {

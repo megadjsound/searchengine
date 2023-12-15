@@ -25,13 +25,11 @@ public interface LogUtil {
     String LOG_ADD_PAGES_DONE = " добавлены страницы сайта: ";
     String LOG_ADD_LEMMAS = " добавляем леммы сайта: ";
     String LOG_ADD_LEMMAS_DONE = " добавлены леммы сайта: ";
-    String LOG_ADD_INDEX = " добавлеяем индексы для сайта: ";
+    String LOG_ADD_INDEX = " добавляем индексы для сайта: ";
     String LOG_ADD_INDEX_DONE = " добавлены индексы для сайта: ";
     String LOG_DELETE_DATA = " начинаем удалять прежние данные по сайту:  ";
     String LOG_DELETE_DATA_DONE = " удалены прежние данные по сайту:  ";
-    String LOG_START_INDEXING = " Запущена индексация сайта: ";
     String LOG_INDEXING_COMPLETED = " Индексация завершена ";
-    String LOG_INDEXING_STOPPED = " Остановка индексации завершена.";
     String LOG_INDEXING_BREAK = " Индексация остановлена пользователем.";
 
     String LOG_DELETE_PAGE = " удаляем данные для страницы сайта: ";
