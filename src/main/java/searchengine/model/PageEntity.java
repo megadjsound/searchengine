@@ -2,7 +2,6 @@ package searchengine.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.SQLInsert;
 
 import javax.persistence.*;
 import java.util.ArrayList;

@@ -105,7 +105,7 @@ public class SearchServiceImpl implements SearchService {
                                                List<String> lemmasFromQuery,
                                                int offset, int limit) {
 
-        if (lemmasFromSite.size() >= lemmasFromQuery.size()) {
+        if (lemmasFromSite.size() < lemmasFromQuery.size()) {
             return new ArrayList<>();
         }
         List<PageEntity> sortedPageList = pageRepository.findByLemmas(lemmasFromSite);
@@ -233,6 +233,6 @@ public class SearchServiceImpl implements SearchService {
             List<String> lemma = lemmaFinderUtil.getLemma(word);
             lemmaList.addAll(lemma);
         }
-        return lemmaList.stream().distinct().toList();
+        return lemmaList.stream().distinct().collect(Collectors.toList());
     }
 }
